@@ -1,0 +1,42 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color:floralwhite;
+    margin: auto;
+    width: 950px;
+}
+#start{
+    border-radius: 30px;
+    padding:10px;
+    font-size: 2em;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+#partTwo, #endResult{
+    display: none;
+}
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+#gifs {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gif {
+	display:inline-block;
+    width: 500px;
+	height: auto;
+    padding: 10px 10px 0 10px;
+}
+.gif img {
+	width: 100%;
+    border-radius: 30px;
+}
+#query{
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    padding: 0 20px
+}
+
+

@@ -1,46 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <title>Midterm</title>
+        <title>Midterm API</title>
         <meta charset="utf-8">
-        <link rel ="stylesheet" href ="style.css" type ="text/css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div id="container">
-            <input type="text" placeholder="Search for a gif" id="query">
-            <div id="start">
-             <h1>Commute from Hell!!</h1>
-                <div id="gif"></div>
+            <h1>Times Ten Jokes</h1>
+            <hr />
+            <div id="partOne">
+                <h2>Goal: Reach 100 clicks to show the end page.</h2>
+                <h3>Steps:</h3>
+                    <ol>
+                        <li>Click 'Begin' to start.</li>
+                        <li>Search for any gif, in search box.</li>
+                        <li>Press enter, and one gif will appear.</li>
+                        <li>Click the gif:</li>
+                        <ul>
+                            <li>Click the gif 10 times, to display a question.</li>
+                            <li>Click the gif another 10 times, to show the answer.</li>
+                            <li>Questions and answer will be revealed at multiples of 10 (clicks).</li>
+                        </ul>
+                        <li>Reach 100 clicks to show the end page.</li>
+                    </ol>
+<!--                <img src=""><br>-->
+                <button id="start">Begin &#10140;</button>
             </div>
-            <div id="one">
-                <h3>Your about to enter the train station but you forgot your metro card. What do you do?</h3>
-                <button>Jump</button>
-                <button>Beg</button> //wrong answer
-                <div id="no-gif"></div>
+            <div id="partTwo">
+                <h3>Search for a gif:
+                <input type="text" placeholder="Search for a gif" id="query">
+                <div id="gifs"></div></h3>
             </div>
-            <div id="two">
-                <h3>The train comes to your first transfer point, but the second trian leaves sooner.What do you do?</h3>
-                <button>Run</button>
-                <button>Walk</button> //wrong answer
-                <div id="no-gif"></div>
+            <div id="endResult">
+                <h2>Your Result Page is Under Construction</h2>
+                <h3>Try Again Later</h3>
             </div>
-            <div id="three">
-                <h3>You start running to your next train which is on another track but the underground passage is flooded. What do you do?</h3>
-                <button>Swim</button>
-                <button>Forget about going to school</button> //wrong
-            </div>
-            <div id="four">
-                <h3>You got to the other track, the train comes , you get on, but  you didn't study.</h3>
-                <button></button>
-            </div>
-            <div id="five">
-            
-            </div>
-            <div id="six">
-            
-            </div>
+            <hr />
+            <footer>
+                <p>&copy; 2018 ~ Vukan and Sarah</p>
+            </footer>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	   <script src="app.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
