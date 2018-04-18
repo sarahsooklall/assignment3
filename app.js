@@ -11,21 +11,21 @@ $(document).ready(function() {
         document.getElementById('partOne').style.display = "none";
     });
     
-//    const firstInput = document.getElementById("noun");
-//    
-//    /*
-//    ** Array for buttons
-//    */
-//    const firstRbtn = {
-//        "\"Hi\"",
-//        "\"Hello\"",
-//        "\"Hola\"",
-//    };
-//    const rbtnFirst = document.getElementById("randomOne");
-//    rbtnFirst.onclick = function() {
-//        const randOne = firstRbtn[Math.floor(Math.random() * firstRbtn.length)];
-//        firstInput.value = randOne;
-//    }
+    const firstInput = document.getElementById("noun");
+    
+    /*
+    ** Array for buttons
+    */
+    const firstRbtn = [
+        "\"Hi\"",
+        "\"Hello\"",
+        "\"Hola\"",
+    ];
+    const rbtnFirst = document.getElementById("randomOne");
+    rbtnFirst.onclick = function() {
+        const randOne = firstRbtn[Math.floor(Math.random() * firstRbtn.length)];
+        firstInput.value = randOne;
+    }
     /*
     ** For Noun Gif
     */
