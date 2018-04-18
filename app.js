@@ -12,20 +12,75 @@ $(document).ready(function() {
     });
     
     const firstInput = document.getElementById("noun");
-    
+    const secondInput = document.getElementById("adjective");
+    const thirdInput = document.getElementById("verb");
+    const fourthInput = document.getElementById("adverb");
     /*
-    ** Array for buttons
+    ** Array for (noun) first button
     */
     const firstRbtn = [
-        "\"Hi\"",
-        "\"Hello\"",
-        "\"Hola\"",
+        "\"Nancy\"",
+        "\"Paris\"",
+        "\"Accordion\"",
+        "\"Albatross\"",
+        "\"Anime\"",
+        "\"Alcohol\"",
     ];
     const rbtnFirst = document.getElementById("randomOne");
     rbtnFirst.onclick = function() {
         const randOne = firstRbtn[Math.floor(Math.random() * firstRbtn.length)];
         firstInput.value = randOne;
     }
+      /*
+    ** Array for (adjective) second button
+    */
+    const secondRbtn = [
+        "\"Pretty\"",
+        "\"Happy\"",
+        "\"Silly\"",
+        "\"Sunny\"",
+        "\"Afraid\"",
+        "\"Beautiful\"",
+        "\"Better\"",
+    ];
+    const rbtnSecond = document.getElementById("randomTwo");
+    rbtnSecond.onclick = function() {
+        const randTwo = secondRbtn[Math.floor(Math.random() * secondRbtn.length)];
+        secondInput.value = randTwo;
+    }
+     /*
+    ** Array for (verb) third button
+    */
+    const thirdRbtn = [
+        "\"Jump\"",
+        "\"Run\"",
+        "\"Swim\"",
+        "\"Ski\"",
+        "\"Fish\"",
+        "\"Talk\"",
+    ];
+    const rbtnThird = document.getElementById("randomThree");
+    rbtnThird.onclick = function() {
+        const randThree = thirdRbtn[Math.floor(Math.random() * thirdRbtn.length)];
+        thirdInput.value = randThree;
+    }
+     /*
+    ** Array for(adverb) fourth button
+    */
+    const fourthRbtn = [
+        "\"Quickly\"",
+        "\"Slowly\"",
+        "\"Happily\"",
+        "\"Foolishly\"",
+        "\"Speedily\"",
+        "\"Blindly\"",
+    ];
+    const rbtnFourth = document.getElementById("randomFour");
+    rbtnFourth.onclick = function() {
+        const randFour = fourthRbtn[Math.floor(Math.random() * fourthRbtn.length)];
+        fourthInput.value = randFour;
+    }
+    
     /*
     ** For Noun Gif
     */

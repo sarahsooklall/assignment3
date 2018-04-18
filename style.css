@@ -1,3 +1,16 @@
+h1{
+    font-family: 'Black Han Sans', sans-serif;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    background-size: cover;
+    color: white;
+    margin: 0 auto;
+    width: 900px;
+}
 #endResult{
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -5,6 +18,7 @@
 }
 #nextOne, #nextTwo, #nextThree, #nextFour, #endResult{
     display: none;
+    
 }
 #gifsNoun, #gifsAdjective, #gifsVerb, #gifsAdverb {
     margin: 0 auto;
