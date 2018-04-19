@@ -4,10 +4,14 @@ h1{
 h2{
     font-family: 'Dosis', sans-serif;
 }
+p{
+    font-size: 20px;
+    font-style: oblique;
+}
 body{
-    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    background-image: url('image.gif');
     background-size: cover;
-    color: white;
+    color: black;
     margin: 0 auto;
     width: 900px;
 }
@@ -18,7 +22,6 @@ body{
 }
 #nextOne, #nextTwo, #nextThree, #nextFour, #endResult{
     display: none;
-    
 }
 #gifsNoun, #gifsAdjective, #gifsVerb, #gifsAdverb {
     margin: 0 auto;

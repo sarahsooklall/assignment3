@@ -21,10 +21,7 @@ $(document).ready(function() {
     const firstRbtn = [
         "\"Nancy\"",
         "\"Paris\"",
-        "\"Accordion\"",
-        "\"Albatross\"",
-        "\"Anime\"",
-        "\"Alcohol\"",
+        "\"Pencil\"",
     ];
     const rbtnFirst = document.getElementById("randomOne");
     rbtnFirst.onclick = function() {
@@ -39,9 +36,6 @@ $(document).ready(function() {
         "\"Happy\"",
         "\"Silly\"",
         "\"Sunny\"",
-        "\"Afraid\"",
-        "\"Beautiful\"",
-        "\"Better\"",
     ];
     const rbtnSecond = document.getElementById("randomTwo");
     rbtnSecond.onclick = function() {
